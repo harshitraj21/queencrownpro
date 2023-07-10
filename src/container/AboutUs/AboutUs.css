@@ -1,0 +1,89 @@
+.about_app {
+  position: relative;
+}
+
+.about_app_info {
+  width: 100%;
+}
+
+.about_app_info_about {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: right;
+}
+
+.about_app_pic {
+  margin: 2rem 4rem;
+}
+
+.about_app_pic img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.about_app_info_history {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.about_app_info_about p,
+.about_app_info_history p {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .about_app_info_about p,
+  .about_app_info_history p {
+    margin-top: 3.5rem;
+  }
+  .about_app_pic {
+    margin: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about_app_info {
+    flex-direction: column;
+  }
+  .about_app_pic {
+    margin: 2rem 0;
+  }
+  .about_app_info_about,
+  .about_app_info_history {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about_app_pic img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+  .about_app_info_about,
+  .about_app_info_history {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about_app_info_about p,
+  .about_app_info_history p {
+    margin-top: 2.5rem;
+  }
+}

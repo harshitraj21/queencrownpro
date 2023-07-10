@@ -1,0 +1,16 @@
+.wrapper_img {
+  width: 80%;
+}
+
+.button_restaurant:hover {
+  box-shadow: 0.5rem 0.5rem 0.5rem -0.4rem yellow;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .wrapper_img {
+    margin: 2rem 0 0 0;
+  }
+}

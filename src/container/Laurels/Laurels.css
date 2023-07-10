@@ -1,0 +1,42 @@
+.app_awards_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.app_awards_img {
+  margin-left: 2rem;
+}
+
+.app_awards_img img {
+  width: 550px;
+  height: 900px;
+  margin-top: 25rem;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .app_awards {
+    display: flex;
+    flex-direction: column;
+    margin: 1 rem;
+  }
+  .app_awards_img img {
+    width: 400px;
+    height: 700px;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .app_awards_img {
+    margin-left: 0.5rem;
+  }
+  .app_awards_img img {
+    width: 350px;
+    height: 550px;
+    margin-top: 2.5rem;
+  }
+}
