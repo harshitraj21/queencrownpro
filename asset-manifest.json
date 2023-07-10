@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/queencrownpro/static/css/main.c9708057.css",
+    "main.js": "/queencrownpro/static/js/main.78719d6f.js",
+    "static/media/bg.png": "/queencrownpro/static/media/bg.3d421b1b5682e1b67deb.png",
+    "index.html": "/queencrownpro/index.html",
+    "main.c9708057.css.map": "/queencrownpro/static/css/main.c9708057.css.map",
+    "main.78719d6f.js.map": "/queencrownpro/static/js/main.78719d6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9708057.css",
+    "static/js/main.78719d6f.js"
+  ]
+}
